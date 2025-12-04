@@ -24,6 +24,7 @@ def q1(plan):
                 total += 1
     return total
 
+
 def q2(plan):
     plan = [list(s) for s in plan]
     total = 0
@@ -41,6 +42,7 @@ def q2(plan):
             plan[y][x] = "."
         total += len(moves)
     return total
+
 
 sample_input = """..@@.@@@@.
 @@@.@.@.@@
